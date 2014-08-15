@@ -1,0 +1,27 @@
+{
+    "name": "hatframework/hat-resource-contador",
+    "type": "library",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/hat-framework/hat-resource-contador",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thompson Filgueiras",
+            "email": "thom@hat-framework.org",
+            "homepage": "http://hat-framework.org",
+            "role": "Developer"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.3.0",
+        "hatframework/hatclasses":"dev-master"
+    },
+    
+    "autoload": {
+        "psr-0": {
+            "resource\\contador\\": "src/"
+        }
+    }
+}
